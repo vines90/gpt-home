@@ -1,0 +1,30 @@
+gpt-home-assistant/
+├── gpt_assistant/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── main.py
+│   ├── home_assistant/
+│   │   ├── __init__.py
+|   |   |—— api.py
+│   │   └── home_assistant.py
+│   ├── nlp/
+│   │   ├── __init__.py
+│   │   └── gpt_agent.py
+│   ├── speech/
+│   │   ├── __init__.py
+│   │   ├── stt.py
+│   │   └── tts.py
+|   |   └── wake_word.py
+│
+├── tests/
+|   |—— intergration/
+|   |   |—— test_gpt_agent_integration.py
+|   |   |—— test_voice_interaction.py
+│   ├── __init__.py
+│   ├── test_gpt_agent.py
+│   ├── test_ha_connection.py
+│   ├── test_stt.py
+│   └── test_tts.py
+├── .env
+├── requirements.txt
+└── setup.py
